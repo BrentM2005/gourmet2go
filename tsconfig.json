@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "module": "esnext"
-  },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "references": [
-    { "path": "./tsconfig.app.json" }
-  ]
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react-jsx",
+    "types": ["vite/client"],
+    "skipLibCheck": true
+  }
 }

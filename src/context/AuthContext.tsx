@@ -1,4 +1,4 @@
-import type { User } from "@supabase/supabase-js";
+import type { User } from "@supabase/auth-js";
 import { createContext, useContext, useEffect, useState } from "react";
 import { supabase } from "../../supabase-client"; // Import the configured Supabase client
 import { useQuery } from "@tanstack/react-query";
